@@ -2,9 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.json({
-    msg: "Hello !"
-  })
+  res.send(<h1>Hello ;)</h1>)
 })
 
 const PORT = 3000
